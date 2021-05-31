@@ -1,0 +1,113 @@
+.container {
+  margin-left: 57px;
+}
+
+img {
+  max-width: 80%;
+  max-height: 280px;
+  border-radius: 150px;
+}
+
+.block {
+  display: flex;
+  flex-direction: column;
+}
+
+.blockInfo {
+  display: flex;
+}
+
+.social {
+  margin-right: 14px;
+  margin-top: 2px;
+}
+
+.visibility {
+  margin-top: -4px;
+  margin-left: 20px;
+}
+
+.followers {
+  margin-left: 5px;
+}
+
+.following {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.name {
+  margin-bottom: 15px;
+  height: 34px;
+  margin-top: 45px;
+  font-weight: 600;
+  font-size: 26px;
+}
+
+.login {
+  cursor: pointer;
+  height: 48.74px;
+  font-size: 18px;
+  line-height: 22px;
+  color: #0059e8;
+}
+
+.BlockFollowers {
+  display: flex;
+}
+
+.blockFollowing {
+  display: flex;
+}
+
+@media (min-width: 565px) and (max-width: 975px) {
+  .container {
+    display: flex;
+    margin-left: 0px;
+  }
+
+  img {
+    max-height: 280px;
+  }
+
+  .block {
+    margin-right: 50px;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 565px) {
+  .container {
+    display: block;
+    margin-left: 20px;
+  }
+
+  img {
+    max-height: 150px;
+  }
+
+  .following {
+    margin-left: 18px;
+    margin-right: 11px;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 400px) {
+  .blockInfo {
+    display: block;
+  }
+
+  .BlockFollowers {
+    display: flex;
+  }
+
+  .blockFollowing {
+    display: flex;
+    margin-left: -23px;
+    padding-top: 15px;
+  }
+
+  .following {
+    margin-left: 15px;
+    margin-right: 7px;
+  }
+}

@@ -1,0 +1,54 @@
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+}
+
+.blockContainer {
+  margin-top: 20%;
+  display: grid;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.search {
+  width: 64px;
+  height: 64px;
+}
+
+.blok {
+  display: grid;
+  justify-content: center;
+}
+
+.titleBlok {
+  width: 210px;
+  height: 62px;
+  font-size: 22px;
+  line-height: 140%;
+}
+
+.title {
+  text-align: center;
+  color: #808080;
+}
+
+@media (min-width: 300px) and (max-width: 975px) {
+  .container {
+    display: block;
+    margin-left: 57px;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 568px) {
+  .container {
+    margin-left: 40px;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 400px) {
+  .container {
+    margin-left: 20px;
+  }
+}

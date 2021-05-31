@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  margin-top: 18%;
+  padding-left: 380px;
+}
+
+.icon {
+  margin-left: 65px;
+  padding-bottom: 35px;
+}
+
+.title {
+  font-size: 22px;
+  line-height: 140%;
+  color: #808080;
+}
+
+@media (min-width: 300px) and (max-width: 975px) {
+  .container {
+    padding-left: 0px;
+  }
+}
